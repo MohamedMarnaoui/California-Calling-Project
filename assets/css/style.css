@@ -406,8 +406,8 @@ article p {
 .banner {
     width: 100%;
     position: absolute;
-    top: 20%;
-    left: 20%;
+    top: 18%;
+    left: 18%;
     transform: rotate(45deg);
 }
 
@@ -416,7 +416,7 @@ article p {
 
     
     font-family:"Larish1";
-    font-size: 4.5rem;
+    font-size: 4.0rem;
     text-transform: uppercase;
     background-color: var(--white);
     color: var(--black);
