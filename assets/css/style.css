@@ -83,7 +83,7 @@ body {
     padding-top: 1%;
 }
 
-/*------------------------------------------------Button + Hover------------------------------------------------------------*/
+/*------------------------------------------------Button + Hover & inkl. Button Nr. 2------------------------------------------------------------*/
 
 .bear-button {
     display: flex;
@@ -91,6 +91,7 @@ body {
     align-items: center;
     padding-top: 9%;
 }
+
 
 .button-rsvp,
 .button2-rsvp {
@@ -107,7 +108,7 @@ body {
 .button2-rsvp a {
     font-family: 'Work Sans', sans-serif; 
     color: #fff ;
-    font-size: .6rem;
+    font-size: .9rem;
     text-decoration: none;
 }
 
@@ -450,7 +451,7 @@ article p {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    }
 
 footer {
     display: flex;
