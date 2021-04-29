@@ -1,0 +1,486 @@
+@font-face {
+    font-family:"Larish1" ;
+    src: url(../fonts/LarishNeueSemibold.woff);
+}
+
+
+@font-face {
+    font-family:"Larish2" ;
+    src: url(../fonts/Larish\ Neue\ Semibold.woff2);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+/*------font-family: 'Work Sans', sans-serif; -----*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000;
+    --white: #fff;
+  }
+
+body {
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+#intro {
+    background-color: var(--black);
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+
+}
+
+
+.intro-conatainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-conatainer .vertikaleLinie {
+    width: 1px;
+    height:15vh;
+    background-color: rgb(117, 115, 115);
+}
+
+
+#intro h3 {
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: .57rem;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+
+#intro h2 {
+    color: #fff;
+    font-family:"Larish2" ;
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 80%;
+
+}
+
+#intro h2:last-of-type {
+    color: #fff;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    filter: invert(100%);
+}
+
+#intro p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: .8rem;
+    color: #fff;
+    padding-top: 1%;
+}
+
+/*------------------------------------------------Button + Hover------------------------------------------------------------*/
+
+.bear-button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 9%;
+}
+
+.button-rsvp,
+.button2-rsvp {
+    width: 9vw;
+    height: 8vh;
+    background-color: var(--black);
+    border: 1px solid var(--white) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-rsvp a,
+.button2-rsvp a {
+    font-family: 'Work Sans', sans-serif; 
+    color: #fff ;
+    font-size: .6rem;
+    text-decoration: none;
+}
+
+.button-rsvp:hover,
+.button2-rsvp:hover {
+    filter: invert(100%);
+}
+
+#california {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+#california p {
+    font-size: 4.0rem;
+    font-weight: 600;
+    padding: 2% 30% 0 22%
+}
+
+.grid-container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 13%;
+    }
+
+.statistic {
+    grid-area:1/1/2/2 ;
+     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center ;
+    padding: 25% 0 0 43%;
+}
+
+.statistic h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem; 
+    padding: 3% 0;
+
+}
+
+.statistic span {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 6.1rem; 
+    font-family:"Larish1" ;
+    
+}
+
+#stuck {
+    position: relative;
+    min-height: 120vh;
+    
+}
+
+
+
+#stuck aside img,
+ article img {
+    width: 20%;
+    min-height: auto;
+}
+
+#stuck aside h2 {
+    font-family:"Larish1" ; 
+    font-size: 4rem;
+    text-align: start;
+    padding: 21% 33% 1% 33%;
+} 
+
+#stuck aside p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2% 28% 22% 33%;   
+    text-align: start;
+    font-weight: 500;
+    line-height: 2rem;
+} 
+
+/*---------------------------------------Ein Teil der Images in Aside. Der Rest befindet sich im Article----------------------------*/
+
+#stuck aside img:first-of-type {
+    position: absolute;
+    right: 5%;
+    top: -4%;
+}
+
+#stuck aside img:nth-last-of-type(3) {
+    position: absolute;
+    top: 11%;
+    left: 4%;
+}
+#stuck aside img:nth-last-of-type(2) {
+    position: absolute;
+    right: 0;
+    top: 45%;
+    width: 17%;
+}
+
+#stuck aside img:nth-last-of-type(1) {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    
+}
+
+
+article p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.2rem; 
+    padding: 55% 25% 23% 33%;
+    line-height: 2rem;
+}
+
+#stuck article img:first-of-type {
+    position: absolute;
+    bottom: 5%;
+    left: 58%;
+}
+
+
+#stuck article img:nth-last-of-type(2) {
+    position: absolute;
+    bottom: 13%;
+    left: 0;
+
+}
+
+#stuck article img:nth-last-of-type(3) {
+    position: absolute;
+    top: 65%;
+    left: 53%;
+    
+}
+
+
+#stuck article img:last-of-type {
+    position: absolute;
+    bottom: -2%;
+    left: 60%;
+
+   
+}
+
+#goldenBear, #joinUs, footer {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.wrapper {
+    display: flex;
+    padding-left: 8%;
+    padding-top: 10%;
+}
+
+.wrapper h2, 
+.poppy-wrapper h2 {
+    font-family:"Larish1" ;
+    font-size: 4.7rem;
+    padding-left: 8%;
+}
+
+.wrapper p,
+.poppy-wrapper p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    padding-left: 8%;
+}
+
+
+
+
+.bearText p:first-of-type,
+.poppy-text p:first-of-type{
+    font-family:"Larish2" ;
+    font-size: 2rem;
+    padding: 1% 15% 1% 26%;
+}
+
+.bearText p:last-of-type,
+.poppy-text p:last-of-type {
+    font-family: 'Work Sans', sans-serif;
+    font-size: .8rem;
+    padding: 1% 24% 1% 26%;
+}
+
+.pic-container, .poppy-pic {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15%;
+}
+
+
+.pic-container img:first-of-type {
+    width: 45%;
+    height: auto;
+    transform: translateY(15%);
+}
+
+.pic-container img:last-of-type {
+    width: 20%;
+    height: 48vh;
+    transform: translate(-120%, 65%);
+
+
+}
+
+
+#poppyBear {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.poppy-wrapper {
+    display: flex;
+    padding-left: 8%;
+    padding-top: 33%;
+}
+
+.poppy-pic {
+    padding-bottom: 10%;
+}
+
+.poppy-pic img:first-of-type {
+    width: 25%;
+    height: 50vh;
+    transform: translate(53%, 40%);
+}
+
+.poppy-pic img:last-of-type {
+    width: 55%;
+    height: auto;
+}
+
+
+
+
+
+#poppyBear .cali-circle img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    right: -10%;
+    top: -5%;
+    animation: carliorniaKreis 10s linear infinite;
+    
+}
+
+/*------------------------------------------------------California Circle Animation---------------------------------------------*/
+
+@keyframes carliorniaKreis {
+   
+    0% {
+
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+#joinUs {
+    position: relative;
+    overflow-x: hidden;
+    
+}
+
+
+#joinUs .content p:first-of-type {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1rem;
+    padding-left: 8%;
+    padding-bottom: 2%;
+}
+
+#joinUs .content p:last-of-type {
+    font-family:"Larish1" ;
+    font-size: 2rem;
+    padding: 0 39% 5% 8% ;
+}
+
+.content .button2-rsvp {
+    transform: translateX(90%);
+}
+
+.content {
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.banner {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: rotate(45deg);
+}
+
+/*-------------------------------------------------------Banner Animation---------------------------------------------------*/
+.banner h2 {
+
+    
+    font-family:"Larish1";
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+    animation: bannerFly 3s linear infinite alternate-reverse both;
+    
+}
+
+.banner span {
+    -webkit-text-stroke: 4px var(--black);
+    color: var(--white);
+}
+
+@keyframes bannerFly {
+
+    0% {
+
+        transform: translate(0);
+    }
+
+    100% {
+
+        transform: translate(15%)
+    }
+}
+
+
+
+
+.all-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+
+
+footer .socialMedia img {
+    width: 15%;
+    padding: 8% 2%;
+}
+
+footer .socialMedia {
+    margin-left: 8%;
+}
+
+footer .socialMedia p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.1rem;
+    padding: 5% 0;
+}
+
+footer .sanFransico {
+    width: 30%;
+}
+
+footer .sanFransico img{
+    width: 25%;
+    padding-left: 5%;
+   
+}
