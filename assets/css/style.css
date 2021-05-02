@@ -410,6 +410,7 @@ article p {
     top: 18%;
     left: 18%;
     transform: rotate(45deg);
+    overflow: hidden;              /* Beim Scrollen sprang der Banner nach oben. Durch overflow:hidden Problem gelöst*/
 }
 
 /*-------------------------------------------------------Banner Animation---------------------------------------------------*/
@@ -422,6 +423,7 @@ article p {
     background-color: var(--white);
     color: var(--black);
     text-align: center;
+    
     animation: bannerFly 3s linear infinite alternate-reverse both;
     
 }
